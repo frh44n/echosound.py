@@ -6,7 +6,7 @@ import os
 TOKEN = '6529945909:AAEj6Exy95DuR5_J72_D3ht2DUzrvTGzOfQ'
 
 # Public URL of the Render service
-WEBHOOK_URL = 'https://echosound-py-2.onrender.com'
+WEBHOOK_URL = 'https://echosound-py.onrender.com'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text('Hello! I am an echo bot. Send me any message and I will echo it back.')
